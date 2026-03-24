@@ -1,5 +1,4 @@
-import React, { use, useState } from "react";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
 
 function Skills() {
     const [activeSkill, setActiveSkill] = useState(null);

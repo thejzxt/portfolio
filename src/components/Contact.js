@@ -14,14 +14,14 @@ function Contact() {
 
       <p>
         GitHub: 
-        <a href="https://github.com/thejzxt" target="_blank">
+        <a href="https://github.com/thejzxt" target="_blank" rel="noopener noreferrer">
           thejzxt
         </a>
       </p>
 
       <p>
         LinkedIn: 
-        <a href="https://www.linkedin.com/in/justin-cs/" target="_blank">
+        <a href="https://www.linkedin.com/in/justin-cs/" target="_blank" rel="noopener noreferrer">
           Justin CS
         </a>
       </p>
