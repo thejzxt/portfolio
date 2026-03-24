@@ -10,7 +10,7 @@ function Navbar() {
       {/* CENTER MENU */}
       <div className="menu">
         <a href="#home">Home</a>
-        <a href="#about">About Me</a>
+        <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>

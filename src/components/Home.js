@@ -1,7 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 function Home() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section id="home" className="home">
 
@@ -21,7 +22,12 @@ function Home() {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <img src="/ME.jpeg" alt="profile" />
+        <img
+  src="/ME.jpeg"
+  alt="profile"
+  className="profile-img"
+  onClick={() => setIsOpen(true)}
+/>
       </motion.div>
 
       {/* RIGHT TEXT */}
@@ -32,10 +38,14 @@ function Home() {
         transition={{ duration: 1 }}
       >
         <h1>Hello, I'm Justin</h1>
-        <h2>Web Developer</h2>
-        <p>I build modern web apps and AI-based systems.</p>
+        <h2>Full-Stack Developer</h2>
+        <p>Transforming ideas into modern web applications and smart AI solutions</p>
       </motion.div>
-
+{isOpen && (
+  <div className="image-modal" onClick={() => setIsOpen(false)}>
+    <img src="/ME.jpeg" alt="zoom" className="zoomed-img" />
+  </div>
+)}
     </section>
   );
 }

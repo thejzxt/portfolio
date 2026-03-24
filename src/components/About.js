@@ -10,7 +10,7 @@ function About() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <h2>About Me</h2>
+      <h2>About</h2>
 
       <p>
         I build things that work — full-stack applications that blend clean frontend UX with solid backend logic and AI-driven features.
