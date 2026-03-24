@@ -57,7 +57,7 @@ function Projects() {
   >
     <p>{item.full}</p>
 
-    {/* SHOW BUTTON ONLY IF LINK EXISTS */}
+    
    {item.github && (
   <a 
     href={item.github} 

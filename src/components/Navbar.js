@@ -4,10 +4,10 @@ function Navbar() {
   return (
     <div className="navbar">
 
-      {/* LEFT LOGO */}
+      
       <div className="logo">Justin</div>
 
-      {/* CENTER MENU */}
+     
       <div className="menu">
         <a href="#home">Home</a>
         <a href="#about">About</a>

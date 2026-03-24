@@ -26,7 +26,7 @@ function Contact() {
         </a>
       </p>
 
-      {/* RESUME BUTTON 🔥 */}
+     
       <a href="/resume.pdf" download>
         <button className="resume-btn">Download Resume</button>
       </a>
